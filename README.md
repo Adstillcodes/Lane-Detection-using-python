@@ -1,5 +1,5 @@
 ## Advanced Lane Finding
-[![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
+
 
 The Project
 ---
@@ -21,19 +21,8 @@ The `challenge_video.mp4` video is an extra (and optional) challenge for you if 
 
 If you're feeling ambitious (again, totally optional though), don't stop there!  We encourage you to go out and take video of your own, calibrate your camera and show us how you would implement this project from scratch!
 
-## Usage:
 
-### 1. Set up the environment 
-`conda env create -f environment.yml`
-
-To activate the environment:
-
-Window: `conda activate carnd`
-
-Linux, MacOS: `source activate carnd`
 
 ### 2. Run the pipeline:
-```bash
-python main.py INPUT_IMAGE OUTPUT_IMAGE_PATH
-python main.py --video INPUT_VIDEO OUTPUT_VIDEO_PATH
-```
+
+We have to run the file lane.py so in your cmd / terminal type "python lane.py" (without the quotes) This will generate an output file in mp4 format named output.mp4
